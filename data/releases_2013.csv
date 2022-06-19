@@ -1,0 +1,424 @@
+pers_id,sentence_date,release_date,crime_type,ed_level
+115,01sep2012,10mar2013,Property,Less than high school
+545,28apr2013,04dec2013,Property,High school degree
+660,24aug2012,31mar2013,Public,High school degree
+985,14jun2012,24feb2013,Violent,Associate degree
+1310,14apr2012,11sep2013,Property,Less than high school
+1415,04oct2011,03sep2013,Drug,Less than high school
+1740,17mar2012,23may2013,Drug,Bachelor's degree or higher'
+1855,06apr2011,02jul2013,Drug,High school degree
+2180,18aug2013,17oct2013,Public,Less than high school
+2285,30jul2012,27oct2013,Drug,Associate degree
+2725,12apr2011,30jan2013,Public,Less than high school
+3050,08jul2013,10oct2013,Public,Less than high school
+3155,26apr2013,05aug2013,Property,Associate degree
+3595,03aug2012,15jul2013,Drug,Associate degree
+3920,30jul2011,15sep2013,Public,Less than high school
+4790,02jul2012,01nov2013,Property,Less than high school
+5115,06may2011,14jul2013,Drug,High school degree
+5220,08may2011,25jan2013,Violent,Bachelor's degree or higher'
+5660,24apr2012,16feb2013,Drug,Less than high school
+5985,20dec2011,16jul2013,Public,Some college
+6090,22nov2012,23aug2013,Public,High school degree
+6415,27oct2011,02nov2013,Violent,Less than high school
+6530,21apr2012,31may2013,Property,Associate degree
+6855,10nov2011,13nov2013,Drug,Less than high school
+7400,24aug2012,09oct2013,Drug,Less than high school
+7610,17mar2012,07jul2013,Drug,Associate degree
+7725,10jul2011,20jan2013,Drug,High school degree
+8050,02nov2011,21apr2013,Drug,Less than high school
+8155,30may2012,21feb2013,Drug,High school degree
+8595,20nov2011,12mar2013,Drug,Less than high school
+8920,09nov2012,05nov2013,Violent,High school degree
+9465,21nov2011,18jan2013,Property,High school degree
+9790,04mar2012,14feb2013,Drug,High school degree
+10335,04jul2011,06sep2013,Drug,Some college
+10660,26feb2012,05aug2013,Violent,Bachelor's degree or higher'
+11090,12apr2011,30jan2013,Violent,High school degree
+11530,26apr2013,05aug2013,Property,Less than high school
+11855,02mar2012,01aug2013,Drug,Less than high school
+12400,24apr2013,14apr2013,Drug,Less than high school
+12725,16jan2012,06jul2013,Drug,Associate degree
+12830,01nov2011,15may2013,Property,Bachelor's degree or higher'
+13155,22sep2012,08may2013,Public,High school degree
+13270,30jul2012,27oct2013,Property,Less than high school
+13595,13jun2011,16mar2013,Drug,High school degree
+14140,01sep2012,10mar2013,Property,Less than high school
+14465,05may2012,18may2013,Property,Less than high school
+14790,04jul2012,08feb2013,Drug,Less than high school
+15220,28jan2012,01mar2013,Drug,Associate degree
+15335,14apr2012,11sep2013,Drug,Less than high school
+15660,05may2011,15jan2013,Violent,Some college
+16205,18aug2013,17oct2013,Property,Associate degree
+16530,26jan2013,05nov2013,Property,Less than high school
+17075,08jul2013,10oct2013,Public,High school degree
+17400,10dec2012,10dec2012,Property,Less than high school
+18270,20mar2012,25jun2013,Property,Some college
+18595,29oct2011,09aug2013,Violent,High school degree
+18700,15aug2012,10oct2013,Property,High school degree
+19140,06may2011,14jul2013,Property,High school degree
+19465,07sep2011,12aug2013,Property,High school degree
+19465,07sep2011,12aug2013,Violent,High school degree
+20010,20dec2011,16jul2013,Violent,Less than high school
+20335,14may2011,06jun2013,Drug,Associate degree
+20880,10nov2011,13nov2013,Drug,Associate degree
+21090,22may2012,09oct2013,Property,High school degree
+21205,24sep2011,09dec2013,Violent,Associate degree
+21530,26nov2012,15dec2013,Property,Less than high school
+21960,24aug2012,31mar2013,Property,High school degree
+22075,02nov2011,21apr2013,Property,Some college
+22400,21jul2011,22may2013,Drug,Less than high school
+22830,24apr2013,09nov2013,Property,High school degree
+22945,09nov2012,05nov2013,Public,High school degree
+23270,19may2012,11nov2013,Drug,High school degree
+23700,26feb2012,05aug2013,Property,Some college
+23815,04mar2012,14feb2013,Drug,Some college
+24140,10may2012,21apr2013,Public,Less than high school
+24245,19may2012,11nov2013,Drug,High school degree
+24245,19may2012,11nov2013,Drug,High school degree
+24570,21nov2011,11nov2011,Violent,Associate degree
+25010,02aug2011,02feb2013,Drug,High school degree
+25335,06feb2012,19dec2013,Violent,High school degree
+25880,02mar2012,01aug2013,Property,Bachelor's degree or higher'
+26205,14sep2011,28sep2013,Public,High school degree
+26750,16jan2012,06jul2013,Violent,Less than high school
+27075,17mar2012,07jul2013,Violent,Less than high school
+27505,15oct2012,18dec2013,Drug,Less than high school
+27620,13jun2011,16mar2013,Drug,High school degree
+27945,04oct2011,03sep2013,Violent,High school degree
+28050,04jul2011,06sep2013,Violent,High school degree
+28270,22sep2013,11nov2013,Property,Less than high school
+28375,20aug2011,13jun2013,Drug,Less than high school
+28815,04jul2012,08feb2013,Property,High school degree
+29140,10jun2012,25apr2013,Violent,Associate degree
+29245,20dec2011,16jul2013,Drug,High school degree
+29685,05may2011,15jan2013,Drug,High school degree
+30010,23aug2011,03apr2013,Drug,High school degree
+30555,26jan2013,05nov2013,Property,Bachelor's degree or higher'
+30880,09jan2012,20jun2013,Property,High school degree
+31310,18aug2013,17oct2013,Drug,Less than high school
+31750,05aug2013,13oct2013,Property,Less than high school
+32075,20apr2012,31mar2013,Property,High school degree
+32620,29oct2011,09aug2013,Violent,High school degree
+32945,18sep2011,02feb2013,Property,Bachelor's degree or higher'
+33490,07sep2011,12aug2013,Violent,High school degree
+33815,22may2012,09oct2013,Property,Less than high school
+33920,23mar2012,15mar2013,Property,Bachelor's degree or higher'
+34360,14may2011,06jun2013,Violent,Less than high school
+34685,,21feb2013,,Less than high school
+35010,23dec2011,09jun2013,Violent,Less than high school
+35555,26nov2012,15dec2013,Drug,High school degree
+35880,28apr2013,04dec2013,Property,Less than high school
+36425,21jul2011,22may2013,Public,Some college
+36750,28jan2011,08mar2013,Drug,Bachelor's degree or higher'
+37295,19may2012,11nov2013,Violent,High school degree
+37505,02nov2011,21apr2013,Drug,High school degree
+37620,27oct2011,02nov2013,Drug,High school degree
+38490,13jun2012,17jan2013,Property,Less than high school
+38815,17mar2012,23may2013,Drug,Less than high school
+39360,06feb2012,19dec2013,Violent,High school degree
+39685,26jul2013,26aug2013,Public,High school degree
+40230,14sep2011,28sep2013,Property,High school degree
+40555,06apr2013,01dec2013,Drug,High school degree
+40660,06jul2012,23oct2013,Drug,Bachelor's degree or higher'
+41100,17mar2012,07jul2013,Violent,High school degree
+41425,20aug2011,13jun2013,Property,Less than high school
+41750,20apr2013,14dec2013,Violent,High school degree
+42295,22sep2013,11nov2013,Property,Less than high school
+42620,15oct2012,18dec2013,Drug,Less than high school
+43165,10jun2012,25apr2013,Violent,High school degree
+43490,01jun2012,01feb2013,Property,Associate degree
+43595,20mar2012,25jun2013,Violent,Bachelor's degree or higher'
+44035,23aug2011,03apr2013,Violent,High school degree
+44245,04jul2012,08feb2013,Violent,High school degree
+44360,22sep2012,08may2013,Property,Associate degree
+45230,14jun2011,22may2013,Violent,Less than high school
+45555,28jan2012,01mar2013,Violent,Less than high school
+46100,20apr2012,31mar2013,Drug,Less than high school
+46425,08may2011,25jan2013,Violent,Less than high school
+46970,18sep2011,02feb2013,Drug,High school degree
+47295,26may2012,10nov2013,Violent,High school degree
+47725,23dec2012,30nov2013,Property,Less than high school
+47840,22may2012,09oct2013,Drug,Less than high school
+48050,06apr2013,01dec2013,Drug,Some college
+48165,17apr2012,11may2013,Property,Less than high school
+49035,23dec2011,09jun2013,Property,High school degree
+49360,23dec2012,30nov2013,Drug,Associate degree
+49905,28apr2013,04dec2013,Property,High school degree
+50230,23mar2012,15mar2013,Drug,Associate degree
+50775,28jan2011,08mar2013,Property,Less than high school
+51100,09dec2012,02nov2013,Property,Less than high school
+51970,22nov2012,23aug2013,Property,Less than high school
+52295,24aug2012,31mar2013,Public,Associate degree
+52400,30oct2012,24mar2013,Public,Associate degree
+52840,17mar2012,23may2013,Violent,High school degree
+53165,15aug2012,10oct2013,Drug,High school degree
+53710,26jul2013,26aug2013,Drug,Less than high school
+54035,04dec2011,19aug2013,Property,Less than high school
+54580,06apr2013,01dec2013,Property,High school degree
+54905,26aug2011,17mar2013,Property,Less than high school
+55775,20apr2013,14dec2013,Property,Less than high school
+56100,29dec2011,03feb2013,Public,High school degree
+56645,15oct2012,18dec2013,Drug,Less than high school
+56970,06jul2012,23oct2013,Property,High school degree
+57515,01jun2012,01feb2013,Drug,High school degree
+57840,02aug2011,09mar2013,Violent,Less than high school
+57945,23aug2011,03apr2013,Violent,Associate degree
+58270,09nov2012,05nov2013,Violent,High school degree
+58710,01nov2011,15may2013,Drug,Some college
+59035,24aug2012,09oct2013,Property,Less than high school
+59580,28jan2012,01mar2013,Property,Less than high school
+59580,28jan2012,01mar2013,Violent,Less than high school
+59905,30oct2012,24mar2013,Property,High school degree
+60450,08may2011,25jan2013,Violent,Associate degree
+60775,04mar2012,13may2013,Property,Less than high school
+61320,26may2012,10nov2013,Property,Bachelor's degree or higher'
+61530,26may2012,10nov2013,Drug,Associate degree
+61645,22oct2011,03jun2013,Violent,Less than high school
+62400,24aug2012,09oct2013,Drug,Less than high school
+62515,06mar2012,25jul2013,Drug,Bachelor's degree or higher'
+62840,30jun2012,09may2013,Property,Associate degree
+63385,23dec2012,30nov2013,Drug,Associate degree
+63710,21jan2011,13apr2013,Property,Less than high school
+64140,10dec2012,29jun2013,Drug,Bachelor's degree or higher'
+64255,23mar2012,15mar2013,Property,High school degree
+64465,26nov2012,26nov2012,Public,Associate degree
+64580,03may2011,19mar2013,Drug,Associate degree
+65450,16feb2013,28jun2013,Property,Bachelor's degree or higher'
+65775,01sep2012,10mar2013,Public,Less than high school
+66320,24aug2012,31mar2013,Drug,Less than high school
+66645,14jun2012,24feb2013,Property,Less than high school
+67075,09dec2012,02nov2013,Property,Less than high school
+67190,15aug2012,10oct2013,Property,Associate degree
+67515,06apr2011,02jul2013,Drug,Less than high school
+68060,04dec2011,19aug2013,Violent,Less than high school
+68385,12apr2011,30jan2013,Property,Less than high school
+69140,01sep2012,10mar2013,Drug,High school degree
+69255,03aug2012,15jul2013,Property,Some college
+69580,30jul2011,15sep2013,Drug,High school degree
+69685,16jan2012,06jul2013,Property,Bachelor's degree or higher'
+70125,29dec2011,03feb2013,Property,Less than high school
+70450,02jul2012,01nov2013,Violent,Less than high school
+70555,02aug2011,02feb2013,Drug,Associate degree
+70995,06jul2012,23oct2013,Property,High school degree
+71205,22sep2013,11nov2013,Public,Less than high school
+71320,24apr2012,16feb2013,Drug,High school degree
+71320,24apr2012,16feb2013,Property,High school degree
+72190,21apr2012,31may2013,Drug,Less than high school
+72515,10nov2011,13nov2013,Violent,High school degree
+72620,14jun2012,24feb2013,Public,High school degree
+72945,29oct2011,09aug2013,Drug,High school degree
+73060,24aug2012,09oct2013,Drug,Less than high school
+73385,10jul2011,20jan2013,Drug,High school degree
+73930,30oct2012,24mar2013,Drug,Associate degree
+74255,,12mar2013,,Less than high school
+74360,21jan2011,13apr2013,Violent,Less than high school
+74800,04mar2012,13may2013,Property,High school degree
+75125,21nov2011,18jan2013,Property,High school degree
+75995,04jul2011,06sep2013,Violent,High school degree
+76320,26feb2012,05aug2013,Drug,Less than high school
+76425,07sep2011,12aug2013,Violent,High school degree
+76865,30jun2012,09may2013,Property,Associate degree
+77190,26apr2013,05aug2013,Drug,Less than high school
+77620,10may2012,21apr2013,Property,High school degree
+77735,21jan2011,13apr2013,Drug,Bachelor's degree or higher'
+78060,24apr2013,09nov2013,Property,Less than high school
+78930,30jul2012,27oct2013,Property,High school degree
+79255,13jun2011,16mar2013,Violent,Less than high school
+79255,13jun2011,16mar2013,Violent,Less than high school
+79360,10jul2011,20jan2013,Property,Less than high school
+79685,06feb2012,19dec2013,Violent,High school degree
+79800,01sep2012,10mar2013,Drug,Associate degree
+80125,05may2012,18may2013,Violent,High school degree
+80670,14jun2012,24feb2013,Property,High school degree
+80995,14apr2012,11sep2013,Violent,High school degree
+81540,06apr2011,02jul2013,Violent,High school degree
+81865,18aug2013,17oct2013,Public,High school degree
+82295,17apr2012,11may2013,Property,High school degree
+82735,,10oct2013,,Less than high school
+83060,10dec2012,29jun2013,Drug,Less than high school
+83605,30jul2011,15sep2013,Drug,Bachelor's degree or higher'
+83930,20mar2012,25jun2013,Drug,Less than high school
+84475,02jul2012,01nov2013,Violent,Associate degree
+84800,06may2011,14jul2013,Drug,Less than high school
+85230,05may2011,15jan2013,Violent,Less than high school
+85555,10nov2011,13nov2013,Drug,Bachelor's degree or higher'
+85670,20dec2011,16jul2013,Public,High school degree
+85775,06mar2012,25jul2013,Violent,Less than high school
+85995,14may2011,06jun2013,Drug,Associate degree
+86540,10nov2011,13nov2013,Drug,Less than high school
+86865,24sep2011,09dec2013,Drug,High school degree
+87410,10jul2011,20jan2013,Property,Associate degree
+87735,02nov2011,21apr2013,Property,Some college
+88280,20nov2011,12mar2013,Violent,Less than high school
+88605,09nov2012,05nov2013,Property,High school degree
+89475,04mar2012,04mar2012,Drug,Less than high school
+89800,10may2012,21apr2013,Property,High school degree
+89905,14sep2011,28sep2013,Drug,High school degree
+90345,26feb2012,05aug2013,Property,Less than high school
+90670,02aug2011,02feb2013,Public,High school degree
+90775,05aug2013,13oct2013,Drug,Bachelor's degree or higher'
+91215,26apr2013,05aug2013,Property,High school degree
+91215,26apr2013,05aug2013,Drug,High school degree
+91425,23dec2011,09jun2013,Drug,Less than high school
+91540,02mar2012,01aug2013,Drug,Less than high school
+91970,21jul2011,22may2013,Violent,High school degree
+92410,16jan2012,06jul2013,Drug,High school degree
+92735,17mar2012,07jul2013,Drug,Some college
+93280,13jun2011,16mar2013,Violent,Less than high school
+93605,04oct2011,03sep2013,Drug,Less than high school
+93710,16feb2013,28jun2013,Public,High school degree
+94150,05may2012,18may2013,Property,Bachelor's degree or higher'
+94475,04jul2012,08feb2013,Violent,Less than high school
+94905,29dec2011,03feb2013,Public,Associate degree
+95020,14apr2012,11sep2013,Property,Associate degree
+95345,05may2011,15jan2013,Violent,High school degree
+96215,26jan2013,05nov2013,Property,High school degree
+96540,09jan2012,20jun2013,Property,High school degree
+97085,10dec2012,29jun2013,Property,Bachelor's degree or higher'
+97410,05aug2013,13oct2013,Violent,High school degree
+97955,20mar2012,25jun2013,Drug,Less than high school
+97955,20mar2012,25jun2013,Drug,Less than high school
+98280,29oct2011,09aug2013,Drug,Associate degree
+98825,06may2011,14jul2013,Public,High school degree
+99150,07sep2011,12aug2013,Drug,Bachelor's degree or higher'
+99475,22may2012,09oct2013,Drug,Bachelor's degree or higher'
+100020,14may2011,06jun2013,Property,Less than high school
+100345,30may2012,21feb2013,Property,Associate degree
+100890,24sep2011,09dec2013,Violent,Some college
+101215,26nov2012,15dec2013,Property,Bachelor's degree or higher'
+101760,02nov2011,21apr2013,Property,Less than high school
+101970,04dec2011,19aug2013,Violent,High school degree
+102085,21jul2011,22may2013,Violent,High school degree
+102955,19may2012,11nov2013,Property,Less than high school
+103280,27oct2011,02nov2013,Property,Less than high school
+103825,10may2012,21apr2013,Property,Some college
+104150,13jun2012,17jan2013,Property,Some college
+104695,02aug2011,02feb2013,Violent,Some college
+105020,06feb2012,19dec2013,Property,Less than high school
+105450,10jun2012,25apr2013,Public,Associate degree
+105565,02mar2012,01aug2013,Drug,High school degree
+105775,13jun2011,16mar2013,Violent,Less than high school
+105890,14sep2011,28sep2013,Violent,High school degree
+106215,06apr2013,01dec2013,Property,Less than high school
+106320,05may2012,18may2013,Public,High school degree
+106760,17mar2012,07jul2013,Property,Less than high school
+107085,20aug2011,13jun2013,Drug,Less than high school
+107515,02aug2011,09mar2013,Violent,Less than high school
+107630,04oct2011,03sep2013,Drug,High school degree
+107955,22sep2013,11nov2013,Property,Less than high school
+108385,30jun2012,09may2013,Violent,Bachelor's degree or higher'
+108500,04jul2012,08feb2013,Property,Less than high school
+108710,04mar2012,13may2013,Property,High school degree
+108825,10jun2012,25apr2013,Violent,Less than high school
+108930,08jul2013,10oct2013,Property,Less than high school
+108930,04mar2012,14feb2013,Drug,Less than high school
+109695,23aug2011,03apr2013,Violent,Some college
+110020,22sep2012,08may2013,Property,Less than high school
+110450,06may2011,14jul2013,Drug,Less than high school
+110565,09jan2012,30dec2011,Public,Some college
+110890,14jun2011,22may2013,Drug,Less than high school
+110995,13jun2012,17jan2013,Property,Bachelor's degree or higher'
+111320,09jan2012,20jun2013,Property,Less than high school
+111435,05aug2013,13oct2013,Drug,Bachelor's degree or higher'
+111760,20apr2012,31mar2013,Property,High school degree
+111865,28jan2011,08mar2013,Drug,Bachelor's degree or higher'
+112305,29oct2011,09aug2013,Public,Less than high school
+112630,18sep2011,02feb2013,Drug,Less than high school
+112955,26may2012,10nov2013,Property,Less than high school
+113060,24sep2011,09dec2013,Property,High school degree
+113500,22may2012,09oct2013,Violent,High school degree
+113825,17apr2012,11may2013,Drug,Less than high school
+113930,21apr2012,31may2013,Drug,High school degree
+114255,03may2011,19mar2013,Violent,Less than high school
+114370,30may2012,21feb2013,Property,Less than high school
+114695,23dec2011,09jun2013,Drug,Some college
+115240,26nov2012,15dec2013,Drug,Bachelor's degree or higher'
+115450,06apr2011,02jul2013,Drug,High school degree
+115565,28apr2013,04dec2013,Public,Less than high school
+115670,26jan2013,05nov2013,Public,Associate degree
+115995,26aug2011,17mar2013,Drug,Some college
+116435,28jan2011,08mar2013,Property,Less than high school
+116760,09dec2012,02nov2013,Drug,Associate degree
+116865,18sep2011,02feb2013,Property,Less than high school
+117305,27oct2011,02nov2013,Drug,Less than high school
+117630,22nov2012,23aug2013,Property,High school degree
+118175,13jun2012,17jan2013,Property,High school degree
+118500,17mar2012,23may2013,Property,Associate degree
+119045,06feb2012,19dec2013,Drug,High school degree
+119370,26jul2013,26aug2013,Property,Bachelor's degree or higher'
+119695,04dec2011,19aug2013,Public,High school degree
+120240,06apr2013,01dec2013,Property,Less than high school
+120240,06apr2013,01dec2013,Public,Less than high school
+120565,26aug2011,17mar2013,Drug,Associate degree
+121110,20aug2011,13jun2013,Drug,Associate degree
+121435,20apr2013,14dec2013,Property,Less than high school
+121980,22sep2013,11nov2013,Public,Associate degree
+122190,20nov2011,12mar2013,Drug,Some college
+122305,15oct2012,18dec2013,Drug,Associate degree
+123175,01jun2012,01feb2013,Drug,Less than high school
+123500,02aug2011,09mar2013,Violent,Less than high school
+124045,22sep2012,08may2013,Violent,Less than high school
+124370,01nov2011,15may2013,Violent,Some college
+124915,14jun2011,22may2013,Drug,Bachelor's degree or higher'
+125240,28jan2012,01mar2013,Drug,Associate degree
+125345,01jun2012,01feb2013,Violent,High school degree
+125785,20apr2012,31mar2013,Drug,Associate degree
+126110,08may2011,25jan2013,Drug,Less than high school
+126435,04mar2012,13may2013,Drug,Less than high school
+126980,26may2012,10nov2013,Property,Less than high school
+127305,22oct2011,03jun2013,Drug,Less than high school
+127735,24apr2012,16feb2013,Public,High school degree
+127850,17apr2012,11may2013,Property,Bachelor's degree or higher'
+128175,06mar2012,25jul2013,Drug,Less than high school
+128720,23dec2011,09jun2013,Property,Bachelor's degree or higher'
+129045,23dec2012,30nov2013,Property,Less than high school
+129915,23mar2012,15mar2013,Property,Less than high school
+130240,03may2011,19mar2013,Property,High school degree
+130785,09dec2012,02nov2013,Drug,Less than high school
+131110,16feb2013,28jun2013,Public,High school degree
+131655,22nov2012,23aug2013,Public,Some college
+131655,22nov2012,23aug2013,Property,Some college
+131980,,31mar2013,,Associate degree
+132525,17mar2012,23may2013,Drug,Associate degree
+132850,15aug2012,10oct2013,Drug,Bachelor's degree or higher'
+132955,03aug2012,15jul2013,Drug,High school degree
+133175,06apr2011,02jul2013,Violent,Some college
+133720,04dec2011,19aug2013,Violent,High school degree
+134045,12apr2011,30jan2013,Drug,Less than high school
+134590,26aug2011,17mar2013,Property,Less than high school
+134915,03aug2012,15jul2013,Property,Some college
+135020,02jul2012,01nov2013,Property,Associate degree
+135345,30jul2011,15sep2013,Violent,High school degree
+135460,20apr2013,14dec2013,Property,Less than high school
+135670,14apr2012,11sep2013,Property,Less than high school
+135785,29dec2011,03feb2013,Violent,Associate degree
+136215,22oct2011,03jun2013,Drug,Associate degree
+136655,06jul2012,23oct2013,Drug,Less than high school
+136980,24apr2012,16feb2013,Public,Some college
+137410,02mar2012,01aug2013,Violent,Less than high school
+137410,02mar2012,01aug2013,Property,Less than high school
+137525,02aug2011,09mar2013,Property,Associate degree
+137850,21apr2012,31may2013,Violent,Some college
+138395,01nov2011,15may2013,Violent,Associate degree
+138605,20apr2013,14dec2013,Public,Associate degree
+138720,24aug2012,09oct2013,Drug,High school degree
+139265,28jan2012,01mar2013,Property,High school degree
+139475,14may2011,06jun2013,Drug,High school degree
+139590,30oct2012,24mar2013,Public,Less than high school
+139915,20nov2011,12mar2013,Drug,Less than high school
+140345,20apr2012,31mar2013,Public,Less than high school
+140460,04mar2012,13may2013,Property,Associate degree
+140785,21nov2011,18jan2013,Drug,Some college
+141330,22oct2011,03jun2013,Violent,Less than high school
+141655,04jul2011,06sep2013,Property,High school degree
+142200,06mar2012,25jul2013,Violent,Less than high school
+142200,06mar2012,25jul2013,Violent,Less than high school
+142525,30jun2012,09may2013,Property,Less than high school
+143395,21jan2011,13apr2013,Violent,High school degree
+143720,24apr2013,09nov2013,Property,Associate degree
+143825,26jul2013,26aug2013,Property,High school degree
+144265,03may2011,19mar2013,Violent,Some college
+144590,30jul2012,27oct2013,Property,Less than high school
+144695,14jun2011,22may2013,Drug,High school degree
+145135,16feb2013,28jun2013,Public,Less than high school

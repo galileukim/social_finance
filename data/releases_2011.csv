@@ -1,0 +1,400 @@
+pers_id,sentence_date,release_date,crime_type,ed_level
+440,01aug2011,21dec2011,Property,High school degree
+765,30oct2010,02feb2011,Property,High school degree
+1310,23oct2010,02apr2011,Public,Less than high school
+1635,28jul2011,11nov2011,Public,High school degree
+1960,19sep2010,16sep2011,Drug,Associate degree
+2180,02nov2010,02nov2010,Public,Less than high school
+2505,26jul2010,19jun2011,Drug,Less than high school
+2830,01aug2011,21dec2011,Violent,High school degree
+3375,26oct2010,14feb2011,Violent,Less than high school
+3700,23oct2010,02apr2011,Property,Bachelor's degree or higher'
+4245,30aug2011,30oct2011,Public,High school degree
+4570,02nov2010,31aug2011,Drug,Some college
+5115,09aug2011,19dec2011,Public,High school degree
+5440,07oct2011,15dec2011,Public,Less than high school
+5765,26oct2010,14feb2011,Drug,High school degree
+6310,23mar2011,07jun2011,Drug,Less than high school
+6635,30aug2011,30oct2011,Public,Less than high school
+6635,30aug2011,30oct2011,Drug,Less than high school
+7180,12apr2011,26dec2011,Public,Bachelor's degree or higher'
+7505,09aug2011,19dec2011,Public,Some college
+8050,14apr2011,04aug2011,Property,Less than high school
+8375,17may2011,26jul2011,Property,High school degree
+8700,23mar2011,07jun2011,Drug,Associate degree
+8920,01jan2011,27aug2011,Drug,High school degree
+9245,11dec2010,27jul2011,Property,High school degree
+9570,12apr2011,12apr2011,Public,Less than high school
+10115,29dec2010,03jul2011,Property,Less than high school
+10440,14apr2011,04aug2011,Public,Associate degree
+10985,04dec2010,30jan2011,Property,Less than high school
+11310,01jan2011,27aug2011,Drug,High school degree
+11855,05aug2011,31dec2011,Property,Less than high school
+12180,17jun2011,14sep2011,Public,Some college
+12505,29dec2010,03jul2011,Violent,Less than high school
+13050,13sep2010,13sep2010,Drug,High school degree
+13375,04dec2010,30jan2011,Public,Associate degree
+13920,06jan2011,27dec2010,Public,Less than high school
+14245,05aug2011,31dec2011,Public,High school degree
+14790,30oct2010,02feb2011,Property,Less than high school
+15115,12mar2011,01dec2011,Property,Associate degree
+15440,13sep2010,26jul2011,Violent,Associate degree
+15660,28jul2011,11nov2011,Public,Some college
+15985,19sep2010,16sep2011,Violent,Less than high school
+16310,06jan2011,03nov2011,Property,Some college
+16855,01aug2011,21dec2011,Property,Some college
+17180,30oct2010,02feb2011,Drug,Some college
+17725,23oct2010,02apr2011,Property,Some college
+18050,28jul2011,11nov2011,Public,Bachelor's degree or higher'
+18595,02nov2010,31aug2011,Public,High school degree
+18920,26jul2010,19jun2011,Public,Less than high school
+19245,01aug2011,21dec2011,Property,High school degree
+19790,26oct2010,14feb2011,Property,High school degree
+20115,23oct2010,02apr2011,Drug,High school degree
+20440,04dec2010,24nov2010,Drug,Less than high school
+20660,30aug2011,30oct2011,Public,Less than high school
+20985,02nov2010,31aug2011,Property,Less than high school
+21530,09aug2011,19dec2011,Public,Less than high school
+21855,07oct2011,15dec2011,Property,High school degree
+22180,26oct2010,14feb2011,Property,Associate degree
+22400,17may2011,26jul2011,Drug,Less than high school
+22725,23mar2011,07jun2011,Public,High school degree
+22830,12mar2011,01dec2011,Drug,High school degree
+23050,30aug2011,30oct2011,Public,High school degree
+23595,12apr2011,26dec2011,Property,Associate degree
+23920,09aug2011,19dec2011,Property,High school degree
+24465,14apr2011,04aug2011,Public,High school degree
+24790,17may2011,26jul2011,Public,Less than high school
+25335,01jan2011,27aug2011,Property,High school degree
+25660,11dec2010,27jul2011,Property,Some college
+25985,12apr2011,26dec2011,Public,Associate degree
+26530,29dec2010,03jul2011,Property,High school degree
+26855,14apr2011,04aug2011,Public,Associate degree
+27180,23oct2010,02apr2011,Drug,Less than high school
+27400,04dec2010,30jan2011,Violent,High school degree
+27725,01jan2011,27aug2011,Property,Associate degree
+28270,05aug2011,31dec2011,Property,Less than high school
+28595,17jun2011,14sep2011,Public,High school degree
+28920,29dec2010,03jul2011,Drug,Associate degree
+29140,12mar2011,01dec2011,Public,Associate degree
+29465,13sep2010,26jul2011,Drug,Bachelor's degree or higher'
+29790,04dec2010,30jan2011,Drug,Less than high school
+30335,06jan2011,03nov2011,Property,Bachelor's degree or higher'
+30660,05aug2011,31dec2011,Public,Associate degree
+31205,30oct2010,02feb2011,Property,Less than high school
+31530,12mar2011,01dec2011,Drug,Bachelor's degree or higher'
+32075,28jul2011,11nov2011,Drug,High school degree
+32400,19sep2010,16sep2011,Property,Some college
+32725,06jan2011,03nov2011,Property,Less than high school
+32945,26jul2010,19jun2011,Public,Bachelor's degree or higher'
+33050,05aug2011,31dec2011,Public,Less than high school
+33270,01aug2011,21dec2011,Public,Less than high school
+33595,30oct2010,02feb2011,Property,Some college
+33920,14apr2011,04aug2011,Violent,Bachelor's degree or higher'
+34140,23oct2010,02apr2011,Property,Less than high school
+34465,28jul2011,11nov2011,Property,Associate degree
+35010,02nov2010,31aug2011,Drug,Less than high school
+35335,26jul2010,19jun2011,Violent,Less than high school
+35660,01aug2011,21dec2011,Property,High school degree
+35880,07oct2011,15dec2011,Public,Less than high school
+36205,26oct2010,14feb2011,Public,Bachelor's degree or higher'
+36530,23oct2010,02apr2011,Public,Bachelor's degree or higher'
+36855,09aug2011,19dec2011,Public,High school degree
+37075,30aug2011,30oct2011,Property,Less than high school
+37400,02nov2010,31aug2011,Property,Associate degree
+37945,09aug2011,19dec2011,Public,High school degree
+38270,07oct2011,15dec2011,Property,Less than high school
+38815,17may2011,26jul2011,Public,Less than high school
+39140,23mar2011,07jun2011,Drug,Less than high school
+39465,30aug2011,30oct2011,Public,Less than high school
+39685,11dec2010,27jul2011,Property,High school degree
+40010,12apr2011,26dec2011,Property,Less than high school
+40335,09aug2011,19dec2011,Public,Associate degree
+40880,14apr2011,04aug2011,Property,Less than high school
+41205,17may2011,26jul2011,Property,Bachelor's degree or higher'
+41750,01jan2011,27aug2011,Property,High school degree
+42075,11dec2010,27jul2011,Drug,Bachelor's degree or higher'
+42620,17jun2011,14sep2011,Property,Less than high school
+42945,29dec2010,03jul2011,Property,Associate degree
+43270,14apr2011,04aug2011,Property,Some college
+43815,04dec2010,30jan2011,Public,Bachelor's degree or higher'
+44140,01jan2011,27aug2011,Drug,Less than high school
+44685,05aug2011,31dec2011,Property,Less than high school
+45010,17jun2011,14sep2011,Drug,Less than high school
+45555,12mar2011,01dec2011,Public,Less than high school
+45660,02nov2010,31aug2011,Public,High school degree
+45880,13sep2010,26jul2011,Property,Associate degree
+46205,04dec2010,30jan2011,Drug,Some college
+46425,19sep2010,16sep2011,Drug,Less than high school
+46750,06jan2011,03nov2011,Violent,Associate degree
+47075,05aug2011,31dec2011,Property,Associate degree
+47620,30oct2010,02feb2011,Drug,Associate degree
+47945,12mar2011,01dec2011,Property,Less than high school
+47945,12mar2011,01dec2011,Public,Less than high school
+48050,23mar2011,07jun2011,Violent,Some college
+48490,28jul2011,11nov2011,Public,Less than high school
+48815,19sep2010,16sep2011,Property,Less than high school
+49360,26jul2010,19jun2011,Property,Associate degree
+49685,01aug2011,21dec2011,Property,Associate degree
+50010,30oct2010,02feb2011,Public,Associate degree
+50555,23oct2010,02apr2011,Property,Associate degree
+50880,28jul2011,11nov2011,Public,High school degree
+51425,02nov2010,31aug2011,Violent,Less than high school
+51750,26jul2010,19jun2011,Drug,High school degree
+52295,07oct2011,15dec2011,Property,Associate degree
+52400,01jan2011,27aug2011,Drug,Associate degree
+52620,26oct2010,14feb2011,Property,Associate degree
+52945,23oct2010,13oct2010,Public,High school degree
+53165,23mar2011,07jun2011,Public,High school degree
+53490,30aug2011,30oct2011,Public,Bachelor's degree or higher'
+53815,02nov2010,31aug2011,Drug,Less than high school
+54360,09aug2011,19dec2011,Drug,Associate degree
+54685,07oct2011,15dec2011,Public,Bachelor's degree or higher'
+55230,17may2011,26jul2011,Drug,High school degree
+55555,23mar2011,07jun2011,Public,Less than high school
+56100,11dec2010,27jul2011,Violent,High school degree
+56425,12apr2011,26dec2011,Drug,Associate degree
+56750,09aug2011,19dec2011,Property,Some college
+57295,14apr2011,04aug2011,Public,High school degree
+57620,17may2011,26jul2011,Property,Bachelor's degree or higher'
+58165,01jan2011,27aug2011,Violent,High school degree
+58490,11dec2010,27jul2011,Public,Less than high school
+59035,17jun2011,14sep2011,Public,Less than high school
+59360,29dec2010,29dec2010,Public,Associate degree
+59685,14apr2011,04aug2011,Public,Associate degree
+59905,13sep2010,26jul2011,Property,High school degree
+60230,04dec2010,30jan2011,Public,Less than high school
+60555,01jan2011,27aug2011,Drug,Associate degree
+61100,05aug2011,31dec2011,Drug,Associate degree
+61425,17jun2011,14sep2011,Public,High school degree
+61530,13sep2010,26jul2011,Property,Associate degree
+61970,12mar2011,01dec2011,Drug,High school degree
+62295,13sep2010,26jul2011,Violent,Less than high school
+62840,19sep2010,16sep2011,Public,Associate degree
+63165,06jan2011,03nov2011,Property,Associate degree
+63490,05aug2011,31dec2011,Public,High school degree
+64035,30oct2010,20oct2010,Property,Some college
+64360,12mar2011,01dec2011,Public,Associate degree
+64905,28jul2011,11nov2011,Property,Less than high school
+65230,19sep2010,16sep2011,Drug,High school degree
+65230,19sep2010,16sep2011,Drug,High school degree
+65555,12apr2011,26dec2011,Public,Less than high school
+65775,26jul2010,19jun2011,Drug,Less than high school
+66100,01aug2011,21dec2011,Public,Associate degree
+66425,30oct2010,02feb2011,Drug,High school degree
+66645,26oct2010,14feb2011,Public,Less than high school
+66970,23oct2010,02apr2011,Drug,High school degree
+67295,28jul2011,11nov2011,Drug,Less than high school
+67840,02nov2010,31aug2011,Public,Associate degree
+68165,26jul2010,19jun2011,Public,Bachelor's degree or higher'
+68710,07oct2011,15dec2011,Public,High school degree
+69035,26oct2010,14feb2011,Drug,High school degree
+69580,23mar2011,23mar2011,Public,High school degree
+69905,30aug2011,30oct2011,Public,Associate degree
+70230,02nov2010,31aug2011,Property,Bachelor's degree or higher'
+70775,09aug2011,19dec2011,Violent,Less than high school
+71100,07oct2011,15dec2011,Property,Bachelor's degree or higher'
+71645,17may2011,26jul2011,Drug,High school degree
+71970,23mar2011,07jun2011,Public,High school degree
+72515,11dec2010,27jul2011,Property,High school degree
+72840,12apr2011,26dec2011,Property,High school degree
+73165,09aug2011,19dec2011,Property,Associate degree
+73385,29dec2010,03jul2011,Drug,High school degree
+73710,14apr2011,04aug2011,Drug,Some college
+74035,17may2011,26jul2011,Property,Less than high school
+74580,01jan2011,27aug2011,Drug,Some college
+74905,11dec2010,27jul2011,Public,Bachelor's degree or higher'
+75450,17jun2011,14sep2011,Public,Less than high school
+75775,29dec2010,03jul2011,Property,Associate degree
+76320,13sep2010,26jul2011,Property,Less than high school
+76645,04dec2010,30jan2011,Violent,Less than high school
+76970,01jan2011,27aug2011,Drug,Associate degree
+77515,05aug2011,31dec2011,Public,Less than high school
+77840,17jun2011,14sep2011,Property,Less than high school
+78385,12mar2011,01dec2011,Property,High school degree
+78710,13sep2010,26jul2011,Drug,Less than high school
+79255,19sep2010,16sep2011,Drug,Less than high school
+79580,06jan2011,27dec2010,Public,Associate degree
+79905,05aug2011,31dec2011,Property,Associate degree
+80125,01aug2011,21dec2011,Public,High school degree
+80450,30oct2010,02feb2011,Public,Some college
+80775,12mar2011,01dec2011,Property,Bachelor's degree or higher'
+81320,28jul2011,11nov2011,Violent,High school degree
+81645,19sep2010,16sep2011,Property,Associate degree
+82190,26jul2010,19jun2011,Property,High school degree
+82515,01aug2011,21dec2011,Property,High school degree
+83060,26oct2010,14feb2011,Property,Less than high school
+83385,23oct2010,02apr2011,Public,Less than high school
+83710,28jul2011,11nov2011,Property,High school degree
+84255,02nov2010,31aug2011,Drug,High school degree
+84580,26jul2010,26jul2010,Violent,Bachelor's degree or higher'
+85125,07oct2011,15dec2011,Drug,High school degree
+85450,26oct2010,14feb2011,Property,Bachelor's degree or higher'
+85995,23mar2011,07jun2011,Property,Associate degree
+86320,30aug2011,20aug2011,Drug,Less than high school
+86645,02nov2010,31aug2011,Public,Less than high school
+86865,12apr2011,26dec2011,Drug,High school degree
+87190,09aug2011,19dec2011,Property,Less than high school
+87515,07oct2011,15dec2011,Violent,Associate degree
+88060,17may2011,26jul2011,Public,Associate degree
+88385,23mar2011,07jun2011,Drug,Associate degree
+88930,11dec2010,27jul2011,Property,Less than high school
+89255,12apr2011,26dec2011,Drug,Some college
+89800,29dec2010,03jul2011,Property,High school degree
+90125,14apr2011,04aug2011,Public,High school degree
+90450,17may2011,26jul2011,Property,High school degree
+90995,01jan2011,27aug2011,Drug,Less than high school
+91320,11dec2010,27jul2011,Property,Bachelor's degree or higher'
+91865,17jun2011,14sep2011,Public,Associate degree
+92190,29dec2010,03jul2011,Drug,High school degree
+92295,19sep2010,16sep2011,Property,Associate degree
+92735,13sep2010,26jul2011,Public,Some college
+93060,04dec2010,30jan2011,Public,Associate degree
+93385,01jan2011,27aug2011,Violent,High school degree
+93605,06jan2011,03nov2011,Property,Less than high school
+93930,05aug2011,31dec2011,Property,Some college
+94255,17jun2011,14sep2011,Drug,Associate degree
+94800,12mar2011,01dec2011,Property,Less than high school
+94905,17may2011,26jul2011,Public,Associate degree
+95125,13sep2010,26jul2011,Drug,Less than high school
+95125,13sep2010,26jul2011,Property,Less than high school
+95670,19sep2010,16sep2011,Property,Some college
+95995,,03nov2011,,High school degree
+96540,01aug2011,01aug2011,Property,High school degree
+96865,30oct2010,02feb2011,Public,Associate degree
+97190,12mar2011,01dec2011,Property,Bachelor's degree or higher'
+97735,28jul2011,11nov2011,Public,Associate degree
+98060,19sep2010,16sep2011,Drug,High school degree
+98605,26jul2010,19jun2011,Property,Associate degree
+98930,01aug2011,21dec2011,Property,Associate degree
+99475,26oct2010,14feb2011,Public,Bachelor's degree or higher'
+99800,23oct2010,02apr2011,Drug,Less than high school
+100125,28jul2011,11nov2011,Property,High school degree
+100345,30aug2011,30oct2011,Property,Associate degree
+100670,02nov2010,31aug2011,Property,Bachelor's degree or higher'
+100995,26jul2010,19jun2011,Property,Some college
+101540,07oct2011,15dec2011,Property,High school degree
+101865,26oct2010,14feb2011,Drug,Associate degree
+101970,26oct2010,14feb2011,Public,High school degree
+101970,26oct2010,14feb2011,Drug,High school degree
+102410,23mar2011,07jun2011,Drug,Less than high school
+102735,30aug2011,30oct2011,Property,High school degree
+103280,12apr2011,26dec2011,Property,Less than high school
+103280,12apr2011,26dec2011,Property,Less than high school
+103605,09aug2011,19dec2011,Property,Some college
+103930,07oct2011,15dec2011,Property,Less than high school
+104475,17may2011,26jul2011,Public,Less than high school
+104800,23mar2011,07jun2011,Property,Less than high school
+105345,11dec2010,27jul2011,Drug,Less than high school
+105670,12apr2011,26dec2011,Property,High school degree
+106215,29dec2010,03jul2011,Property,Less than high school
+106320,28jul2011,11nov2011,Public,High school degree
+106540,14apr2011,04aug2011,Property,Less than high school
+106865,17may2011,26jul2011,Violent,Less than high school
+107085,04dec2010,30jan2011,Violent,Less than high school
+107410,01jan2011,27aug2011,Drug,Some college
+107735,11dec2010,27jul2011,Property,Associate degree
+108280,17jun2011,14sep2011,Property,Less than high school
+108605,29dec2010,03jul2011,Public,Associate degree
+109150,13sep2010,26jul2011,Violent,High school degree
+109475,04dec2010,30jan2011,Drug,Associate degree
+110020,06jan2011,03nov2011,Property,Less than high school
+110345,05aug2011,31dec2011,Property,Less than high school
+110670,17jun2011,14sep2011,Public,Bachelor's degree or higher'
+111215,12mar2011,01dec2011,Public,Associate degree
+111540,13sep2010,26jul2011,Property,Associate degree
+111645,29dec2010,03jul2011,Property,Less than high school
+112085,19sep2010,16sep2011,Property,Bachelor's degree or higher'
+112410,06jan2011,03nov2011,Property,High school degree
+112955,01aug2011,21dec2011,Drug,Less than high school
+113280,30oct2010,02feb2011,Public,Less than high school
+113385,17jun2011,14sep2011,Public,Less than high school
+113605,12mar2011,01dec2011,Drug,Less than high school
+113825,23oct2010,02apr2011,Property,Less than high school
+114150,28jul2011,11nov2011,Public,Associate degree
+114475,19sep2010,16sep2011,Drug,High school degree
+115020,26jul2010,19jun2011,Drug,Less than high school
+115345,01aug2011,21dec2011,Public,Associate degree
+115890,26oct2010,14feb2011,Public,Less than high school
+116215,23oct2010,02apr2011,Property,High school degree
+116320,26jul2010,19jun2011,Drug,Less than high school
+116760,30aug2011,30oct2011,Public,Associate degree
+117085,02nov2010,31aug2011,Property,Less than high school
+117410,26jul2010,19jun2011,Property,High school degree
+117955,07oct2011,15dec2011,Public,Less than high school
+118280,26oct2010,14feb2011,Public,Less than high school
+118825,23mar2011,07jun2011,Public,Less than high school
+119150,30aug2011,30oct2011,Property,Less than high school
+119695,12apr2011,26dec2011,Property,High school degree
+120020,09aug2011,19dec2011,Property,Less than high school
+120345,07oct2011,15dec2011,Public,Bachelor's degree or higher'
+120565,14apr2011,04aug2011,Property,Associate degree
+120890,17may2011,26jul2011,Property,High school degree
+121215,23mar2011,07jun2011,Public,Less than high school
+121540,30oct2010,02feb2011,Property,Less than high school
+121760,11dec2010,27jul2011,Property,Less than high school
+122085,12apr2011,26dec2011,Public,Less than high school
+122630,29dec2010,03jul2011,Property,Associate degree
+122955,14apr2011,04aug2011,Public,Associate degree
+123500,04dec2010,30jan2011,Property,Less than high school
+123825,01jan2011,27aug2011,Drug,Some college
+124150,11dec2010,27jul2011,Public,Bachelor's degree or higher'
+124695,17jun2011,14sep2011,Public,Some college
+125020,29dec2010,03jul2011,Violent,High school degree
+125565,13sep2010,26jul2011,Property,High school degree
+125890,04dec2010,30jan2011,Public,Less than high school
+126435,06jan2011,03nov2011,Property,Less than high school
+126760,05aug2011,31dec2011,Public,Associate degree
+127085,17jun2011,14sep2011,Violent,Less than high school
+127305,30oct2010,02feb2011,Public,Less than high school
+127630,12mar2011,01dec2011,Property,Less than high school
+127955,13sep2010,26jul2011,Drug,High school degree
+128500,19sep2010,16sep2011,Property,Associate degree
+128825,06jan2011,03nov2011,Public,High school degree
+129150,06jan2011,03nov2011,Drug,High school degree
+129370,01aug2011,21dec2011,Property,Less than high school
+129695,30oct2010,02feb2011,Property,High school degree
+129800,11dec2010,27jul2011,Property,High school degree
+130240,23oct2010,02apr2011,Drug,High school degree
+130565,28jul2011,11nov2011,Property,Associate degree
+130890,19sep2010,16sep2011,Property,Associate degree
+131435,26jul2010,19jun2011,Property,Bachelor's degree or higher'
+131760,01aug2011,21dec2011,Property,Associate degree
+131865,01aug2011,21dec2011,Public,High school degree
+132305,26oct2010,14feb2011,Violent,Some college
+132630,23oct2010,02apr2011,Property,High school degree
+133175,30aug2011,30oct2011,Public,Some college
+133500,02nov2010,31aug2011,Property,High school degree
+133825,26jul2010,19jun2011,Property,Bachelor's degree or higher'
+134045,09aug2011,19dec2011,Public,Less than high school
+134370,,15dec2011,,Less than high school
+134695,26oct2010,14feb2011,Drug,Associate degree
+135240,23mar2011,07jun2011,Public,Less than high school
+135565,30aug2011,30oct2011,Public,Associate degree
+136110,12apr2011,26dec2011,Drug,Associate degree
+136435,09aug2011,19dec2011,Public,Bachelor's degree or higher'
+136980,14apr2011,04aug2011,Property,Some college
+137305,17may2011,26jul2011,Property,High school degree
+137630,23mar2011,07jun2011,Public,High school degree
+138175,11dec2010,27jul2011,Drug,Some college
+138500,12apr2011,26dec2011,Property,Less than high school
+139045,29dec2010,03jul2011,Public,High school degree
+139370,14apr2011,04aug2011,Property,Less than high school
+139915,04dec2010,30jan2011,Drug,Less than high school
+140240,01jan2011,27aug2011,Property,Less than high school
+140565,11dec2010,27jul2011,Drug,Associate degree
+140785,05aug2011,31dec2011,Public,Some college
+141110,17jun2011,14sep2011,Public,Associate degree
+141435,29dec2010,03jul2011,Drug,Associate degree
+141980,13sep2010,26jul2011,Public,Less than high school
+142305,04dec2010,30jan2011,Property,Less than high school
+142630,30aug2011,30oct2011,Violent,High school degree
+142850,06jan2011,03nov2011,Violent,Some college
+142850,06jan2011,03nov2011,Property,Some college
+143175,05aug2011,31dec2011,Public,Associate degree
+143720,,02feb2011,,Associate degree
+144045,12mar2011,01dec2011,Drug,Some college
+144150,07oct2011,15dec2011,Property,Less than high school
+144370,13sep2010,26jul2011,Drug,Associate degree
+144915,,16sep2011,,Less than high school
+145240,06jan2011,03nov2011,Property,High school degree
