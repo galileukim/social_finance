@@ -13,7 +13,7 @@ theme_set(
     theme_minimal()
 )
 
-classify_years_since_release <- function(data){
+classify_years_since_release <- function(data) {
     data %>%
         mutate(
             years_since_original_release = case_when(
@@ -23,15 +23,15 @@ classify_years_since_release <- function(data){
                 sentence_date %within% interval(original_release_date_plus_2 + 1, original_release_date_plus_3) ~ 3L,
                 T ~ 4L
             )
-        ) 
+        )
 }
 
-generate_dummy_recidivism <- function(data){
+generate_dummy_recidivism <- function(data) {
     # function to generate dummies for recidivism
-    data %>% 
+    data %>%
         summarise(
             recidivism_year_1 = if_else(
-                any(years_since_original_release == 1, na.rm = TRUE), 
+                any(years_since_original_release == 1, na.rm = TRUE),
                 1, 0
             ),
             recidivism_year_2 = if_else(
@@ -46,7 +46,7 @@ generate_dummy_recidivism <- function(data){
         )
 }
 
-summarise_prop_recidivism <- function(data){
+summarise_prop_recidivism <- function(data) {
     data %>%
         summarise(
             across(
@@ -58,8 +58,8 @@ summarise_prop_recidivism <- function(data){
         )
 }
 
-pivot_recidivism_longer <- function(data){
-    data %>% 
+pivot_recidivism_longer <- function(data) {
+    data %>%
         pivot_longer(
             cols = c(
                 starts_with("prop_recidivism_year")
@@ -70,14 +70,14 @@ pivot_recidivism_longer <- function(data){
         )
 }
 
-plot_recidivism <- function(data, grouping = NULL){
+plot_recidivism <- function(data, grouping = NULL) {
     data %>%
         pivot_recidivism_longer() %>%
         ggplot(
             aes(
                 years_since_original_release,
                 prop_recidivism,
-                fill = {{grouping}}
+                fill = {{ grouping }}
             )
         ) +
         geom_col(
@@ -86,13 +86,13 @@ plot_recidivism <- function(data, grouping = NULL){
         ) +
         geom_text(
             aes(
-                label = scales::percent(prop_recidivism)
+                label = scales::percent(prop_recidivism, accuracy = 0.1)
             ),
             position = position_dodge(0.7),
             vjust = -1,
             size = 4
         ) +
-        scale_y_continuous( 
+        scale_y_continuous(
             labels = scales::percent_format()
         ) +
         labs(
@@ -100,8 +100,9 @@ plot_recidivism <- function(data, grouping = NULL){
             y = ""
         ) +
         theme(
-            text = element_text(size = 16)
-        )
+            text = element_text(size = 16),
+            legend.position = "bottom"
+        ) 
 }
 
 # ------------------------------------------------------------------------------
@@ -131,10 +132,18 @@ prop_2010_recidivism <- release_cohort_2010 %>%
     generate_dummy_recidivism() %>%
     summarise_prop_recidivism()
 
+# by education level
 prop_edu_2010_recidivism <- release_cohort_2010 %>%
     group_by(pers_id, ed_level) %>%
     generate_dummy_recidivism() %>%
     group_by(ed_level) %>%
+    summarise_prop_recidivism()
+
+# by crime type
+prop_crime_2010_recidivism <- release_cohort_2010 %>%
+    group_by(pers_id, crime_type) %>%
+    generate_dummy_recidivism() %>%
+    group_by(crime_type) %>%
     summarise_prop_recidivism()
 
 prop_risk_2010_recidivism <- release_cohort_2010 %>%
@@ -150,24 +159,30 @@ prop_time_2010_recidivism <- release_cohort_2010 %>%
     # add duration of incarceration
     mutate(
         time_incarcerated = time_length(
-            original_release_date - original_sentence_date, unit = "months"
+            original_release_date - original_sentence_date,
+            unit = "months"
         ),
         bin_time_incarcerated = cut(
             time_incarcerated,
-            4,
+            breaks = c(0, 12, 24, 36),
+            labels = c("Less than a year", "1-2 years", "2-3 years"),
             include.lowest = TRUE
         )
-    ) %>% 
+    ) %>%
     group_by(bin_time_incarcerated) %>%
     summarise_prop_recidivism()
 
 # ------------------------------------------------------------------------------
 # 3.0. data analysis
 # ------------------------------------------------------------------------------
-# What percentage of individuals released in 2010 were incarcerated again 
+# What percentage of individuals released in 2010 were incarcerated again
 # within 1 year, within 2 years, and within 3 years?
 prop_2010_recidivism %>%
     plot_recidivism()
+
+ggsave(
+    here("figs", "plot_recidivism.png")
+)
 
 # breakdown by education level
 prop_edu_2010_recidivism %>%
@@ -192,6 +207,26 @@ prop_edu_2010_recidivism %>%
         palette = "Set2"
     )
 
+ggsave(
+    here("figs", "plot_edu_recidivism.png")
+)
+
+# breakdown by type of crime
+prop_crime_2010_recidivism %>%
+    plot_recidivism(grouping = crime_type) +
+    theme(
+        legend.position = "bottom"
+    ) +
+    scale_fill_brewer(
+        name = "Type of Crime",
+        palette = "Set2"
+    )
+
+ggsave(
+    here("figs", "plot_crime_recidivism.png")
+)
+
+# risk
 prop_risk_2010_recidivism %>%
     filter(!is.na(risk)) %>%
     plot_recidivism(grouping = risk) +
@@ -199,21 +234,68 @@ prop_risk_2010_recidivism %>%
         legend.position = "bottom"
     ) +
     scale_fill_brewer(
-        name = "Risk-Score",
+        name = "Risk Score",
         palette = "Set2"
     )
 
+ggsave(
+    here("figs", "plot_risk_recidivism.png")
+)
+
 prop_time_2010_recidivism %>%
     plot_recidivism(grouping = bin_time_incarcerated) +
-    theme(
-        legend.position = "bottom"
-    ) +
-    scale_fill_brewer(
+     scale_fill_brewer(
         name = "Time Incarcerated",
         palette = "Set2"
     )
 
-# ------------------------------------------------------------------------------
-# 3.1. heterogeneity analysis
-# ------------------------------------------------------------------------------
-# breakdown by education
+ggsave(
+    here("figs", "plot_time_recidivism.png")
+)
+
+# risk score
+release_cohort_2010 %>%
+    filter(
+        !is.na(risk) &
+        release_date == original_release_date
+    ) %>%
+    count(risk, crime_type) %>%
+    group_by(risk) %>%
+    mutate(
+        prop = n / sum(n)
+    ) %>%
+    ungroup() %>%
+    ggplot(
+        aes(risk, prop, fill = crime_type)
+    ) +
+    geom_col(
+        width = 0.5,
+        position = position_dodge(width = 0.7)
+    ) +
+    geom_text(
+        aes(
+            label = scales::percent(prop)
+        ),
+        position = position_dodge(0.7),
+        vjust = -1,
+        size = 4
+    ) +
+    scale_y_continuous(
+        labels = scales::percent_format()
+    ) +
+    labs(
+        x = "Risk Level",
+        y = ""
+    ) +
+    theme(
+        text = element_text(size = 16),
+        legend.position = "bottom"
+    ) +
+    scale_fill_brewer(
+        name = "Type of Crime",
+        palette = "Set2"
+    )
+
+ggsave(
+    here("figs", "plot_risk_vs_crime.png")
+)
