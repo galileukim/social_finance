@@ -143,21 +143,21 @@ prop_risk_2010_recidivism <- release_cohort_2010 %>%
     group_by(risk) %>%
     summarise_prop_recidivism()
 
-# baseline in 2010
+# time incarcerated
 prop_time_2010_recidivism <- release_cohort_2010 %>%
+    group_by(pers_id, original_sentence_date, original_release_date) %>%
+    generate_dummy_recidivism() %>%
     # add duration of incarceration
     mutate(
         time_incarcerated = time_length(
-            release_date - sentence_date, unit = "months"
+            original_release_date - original_sentence_date, unit = "months"
         ),
         bin_time_incarcerated = cut(
             time_incarcerated,
             4,
             include.lowest = TRUE
         )
-    ) %>%
-    group_by(pers_id, bin_time_incarcerated) %>%
-    generate_dummy_recidivism() %>%
+    ) %>% 
     group_by(bin_time_incarcerated) %>%
     summarise_prop_recidivism()
 
@@ -194,7 +194,24 @@ prop_edu_2010_recidivism %>%
 
 prop_risk_2010_recidivism %>%
     filter(!is.na(risk)) %>%
-    plot_recidivism(grouping = risk)
+    plot_recidivism(grouping = risk) +
+    theme(
+        legend.position = "bottom"
+    ) +
+    scale_fill_brewer(
+        name = "Risk-Score",
+        palette = "Set2"
+    )
+
+prop_time_2010_recidivism %>%
+    plot_recidivism(grouping = bin_time_incarcerated) +
+    theme(
+        legend.position = "bottom"
+    ) +
+    scale_fill_brewer(
+        name = "Time Incarcerated",
+        palette = "Set2"
+    )
 
 # ------------------------------------------------------------------------------
 # 3.1. heterogeneity analysis

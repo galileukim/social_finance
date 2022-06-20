@@ -61,19 +61,13 @@ releases <- releases_raw %>%
 releases <- releases %>% 
     filter(
         release_date > sentence_date
-    ) %>%
-    # create lags for release and sentence dates
-    group_by(pers_id) %>%
-    mutate(
-        lag_sentence_date = lag(sentence_date, order_by = case_id),
-        lag_release_date = lag(release_date, order_by = case_id) 
-    ) %>%
-    ungroup()
+    )
 
 # generate date cutpoints for earliest release in 2010
 first_release_date <- releases %>%
     group_by(pers_id) %>%
     summarise(
+        original_sentence_date = sentence_date[release_date == min(release_date)],
         original_release_date = min(release_date),
         original_release_date_plus_1 = original_release_date + years(1),
         original_release_date_plus_2 = original_release_date + years(2),
