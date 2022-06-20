@@ -7,6 +7,7 @@ library(readr)
 library(lubridate)
 library(ggplot2)
 library(here)
+library(fs)
 
 set.seed(1789)
 
@@ -76,7 +77,7 @@ first_release_date <- releases %>%
         original_release_date = min(release_date),
         original_release_date_plus_1 = original_release_date + years(1),
         original_release_date_plus_2 = original_release_date + years(2),
-        original_release_date_plus_2 = original_release_date + years(3)
+        original_release_date_plus_3 = original_release_date + years(3)
     ) %>%
     ungroup()
 
@@ -99,7 +100,7 @@ releases_cohort_2010 <- releases %>%
 # clean risk score data
 # note: there are people with multiple risk scores
 # maintain them if these are identical, otherwise drop (19 obs.)
-risk_score <- risk_score %>% 
+risk_score <- risk_score_raw %>% 
     group_by(pers_id) %>%
     mutate(
         distinct_risk = n_distinct(risk)
